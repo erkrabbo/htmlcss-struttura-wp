@@ -31,6 +31,31 @@
     background-color: #abcfe7;
 }
 
+.content::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header{
+    height: 20%;
+    background-color: #0186ff;
+}
+
+.sidebar{
+    float: left;
+    height: calc(80% - 1rem);
+    background-color: #0186ff;
+    width: 20%;
+}
+
+.central{
+    float: left;
+    height: calc(80% - 1rem);
+    background-color: #0186ff;
+    /* width: 20%; */
+}
+
 .site-footer{
     height: calc(8vh - .25rem);
     max-height: calc(8 / 15 * 7em);
