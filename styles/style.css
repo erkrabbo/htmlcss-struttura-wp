@@ -28,7 +28,7 @@
 .content{
     height: calc(40vh - .5rem);
     max-height: calc(40 / 15 * 7em);
-    background-color: #abcfe7;
+    background-color: #0186ff;
 }
 
 .content::after{
@@ -39,26 +39,28 @@
 
 .main-header{
     height: 20%;
-    background-color: #0186ff;
+    background-color: #abcfe7;
 }
 
 .sidebar{
     float: left;
     height: calc(80% - 1rem);
-    background-color: #0186ff;
+    background-color: #abcfe7;
     width: 20%;
 }
 
 .central{
     float: left;
     height: calc(80% - 1rem);
-    background-color: #0186ff;
-    /* width: 20%; */
+    background-color: #abcfe7;
+    width: calc(60% - 1rem);
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 .site-footer{
     height: calc(8vh - .25rem);
     max-height: calc(8 / 15 * 7em);
-    background-color: #8801fe;
+    background-color: #8801fee7;
     margin-top: .25rem;
 }
