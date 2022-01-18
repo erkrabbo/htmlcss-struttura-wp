@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+*+*{
+    margin-top: .5rem;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding: .5em 3em 1em;
+}
+.site-header{
+    height: 15vh;
+    background-color: #e579e6;
+    max-height: 7em;
+}
+
+.gallery{
+    height: calc(35vh - .5rem);
+    max-height: calc(35 / 15 * 7em);
+    background-color: #e1d67a;
+}
+
+.content{
+    height: calc(40vh - .5rem);
+    max-height: calc(40 / 15 * 7em);
+    background-color: #abcfe7;
+}
+
+.site-footer{
+    height: calc(8vh - .25rem);
+    max-height: calc(8 / 15 * 7em);
+    background-color: #8801fe;
+    margin-top: .25rem;
+}
